@@ -1,0 +1,41 @@
+[role="banner"] {
+    background: url(images/zengarden.jpg);
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*
+body {
+    background-color: hsla(250, 100%, 50%, 0.3);
+}
+
+.summary {
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#zen-intro {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    height: auto;
+}
+*/
