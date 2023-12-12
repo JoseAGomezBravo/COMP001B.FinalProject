@@ -3,7 +3,7 @@
 
 .page-wrapper {
     display: grid;
-    grid-template-columns: 20% 50% 20%;
+    grid-template-columns: 20% 50% 25%;
     height: auto;
 }
 
@@ -77,8 +77,6 @@ h3 {
     margin-left: 200px;
     margin-right: 200px;
     border: #ebf8e1 4px solid;
-    border-left-color: #f69d3c;
-    border-right-color: #3f87a6;
     border-radius: 20px;
 }
 
@@ -91,3 +89,27 @@ h3 {
     opacity: .5;
 }
 
+.sidebar {
+    border: #3f87a6 4px solid;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 6px;
+    padding: 7px;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    border: #ebf8e1 4px solid;
+    border-left-color: #f69d3c;
+    border-right-color: #3f87a6;
+    border-radius: 20px;
+}
+
+.sidebar a:hover {
+    background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6);
+}
+
+.sidebar a {
+    color: blue;
+    opacity: .5;
+}
